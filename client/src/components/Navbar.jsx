@@ -1,13 +1,13 @@
-import { Badge } from '@mui/icons-material';
-import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import React from 'react'
+import { Badge } from '@material-ui/core';
+import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import styled from 'styled-components'
-//import Container from 'material-ui'
+
 
 
 const Container = styled.div`
     height: 60px;
-    //background-color: black;
+    background-color: maroon;
 `
 
 const Wrapper = styled.div`
@@ -40,6 +40,7 @@ justify-content: flex-end;
 const MenuItem = styled.div`
     font-size: 14px;
     cursor: pointer;
+    margin-left: 25px;
 `;
 
 

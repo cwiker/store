@@ -3,7 +3,7 @@
 import React from 'react';
 //import { Typography, AppBar, Toolbar, CssBaseline, Container, StyleSheet, Grid, Button, Card, CardMedia, CardContent, CardActions } from '@material-ui/core';
 //import MedicalServicesTwoToneIcon from '@mui/icons-material/MedicalServicesTwoTone';
-import Home from './components/Home'
+import Home from './pages/Home'
 //import useStyles from './styles';
 
 const cards = [1, 2, 3, 4, 5, 6]
