@@ -8,7 +8,7 @@ import styled from 'styled-components'
 const Container = styled.div`
     height: 60px;
     background-color: maroon;
-`
+` 
 
 const Wrapper = styled.div`
     padding: 10px 20px;
@@ -18,12 +18,16 @@ const Wrapper = styled.div`
 `;
 
 const Left = styled.div`
-flex: 1;
+    flex: 1;
+    color: white;
 `;
 
 const Center = styled.div`
-flex: 1;
-text-align: center;
+    flex: 1;
+    text-align: center;
+    color: white;
+    stroke: black;
+    stroke-width: 50px;
 `;
 
 const Logo = styled.h1`
@@ -31,10 +35,11 @@ const Logo = styled.h1`
 `; 
 
 const Right = styled.div`
-flex: 1;
-display: flex;
-align-items: center;
-justify-content: flex-end;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: white;
 `;
 
 const MenuItem = styled.div`

@@ -1,9 +1,14 @@
 //import logo from './logo.svg';
 //import './App.css';
-import React from 'react';
+//import React from 'react';
 //import { Typography, AppBar, Toolbar, CssBaseline, Container, StyleSheet, Grid, Button, Card, CardMedia, CardContent, CardActions } from '@material-ui/core';
 //import MedicalServicesTwoToneIcon from '@mui/icons-material/MedicalServicesTwoTone';
-import Home from './pages/Home'
+// import Product from "./pages/Product";
+// import Home from "./pages/Home";
+// import ProductList from "./pages/ProductList";
+// import Register from "./pages/Register";
+import Login from "./pages/Login";
+//import Cart from "./pages/Cart";
 //import useStyles from './styles';
 
 const cards = [1, 2, 3, 4, 5, 6]
@@ -15,7 +20,7 @@ const App = () => {
   //const classes = useStyles();
 
   return (
-    <Home/>
+    <Login />
     // <>
     //   <CssBaseline />
     //   <AppBar position="relative" color="primary" size="large">
